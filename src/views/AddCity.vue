@@ -9,7 +9,7 @@
               type="text"
               class="form-control mb-2"
               aria-describedby="emailHelp"
-              placeholder="City"
+              placeholder="Change"
               v-model="name"
             />
           </div>
