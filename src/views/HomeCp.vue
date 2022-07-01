@@ -14,7 +14,9 @@
                 align-items-center
               "
             >
-              {{ city.name }}
+              <span class="cityName">{{ city.name }}</span>
+               <span class="countyName">{{ city.name }}</span>
+                <span class="countryName">{{ city.name }}</span>
               <span class="badge badge-primary badge-pill">
                 <router-link
                   :to="{ path: `/cities/${city.id}` }"
@@ -55,3 +57,17 @@ export default {
   },
 };
 </script>
+<style>
+.cityName{
+  width: 150px;
+  text-align: start;
+}
+.cityCounty{
+  width: 70px;
+  text-align: start;
+}
+.cityCountry{
+  width: 70px;
+  text-align: start;
+}
+</style>
