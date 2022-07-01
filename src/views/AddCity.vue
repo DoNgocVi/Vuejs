@@ -19,7 +19,7 @@
               class="form-control mb-2"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
-              placeholder="Enter email"
+              placeholder="County"
               v-model="county"
             />
           </div>
