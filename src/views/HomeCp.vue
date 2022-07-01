@@ -62,11 +62,11 @@ export default {
   width: 150px;
   text-align: start;
 }
-.cityCounty{
+.countyName{
   width: 70px;
   text-align: start;
 }
-.cityCountry{
+.countryName{
   width: 70px;
   text-align: start;
 }
