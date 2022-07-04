@@ -19,7 +19,6 @@ const store = createStore({
             context.commit('GET_CITIES', cities)
         }, 
         async createCity(context, payload){
-            console.log('creating document');
             const addedDoc = await addDoc(citiesColRef, payload.data)
             alert('document create successfully')
             console.log(addedDoc)
